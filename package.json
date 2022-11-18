@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc src/paint-by-numbers/index.ts",
+    "generate": "npx prisma generate",
+    "studio": "npx prisma studio"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "@fantasy-color/from-hex": "^2.1.0",
+    "@pm2/io": "^5.0.0",
+    "@prisma/client": "^3.13.0",
+    "body-parser": "^1.20.0",
+    "canvas": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.5",
+    "puppeteer": "^13.7.0",
+    "svg2img": "^0.9.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.31",
+    "@types/nodemailer": "^6.4.4",
+    "prisma": "^3.13.0",
+    "prisma-dbml-generator": "^0.9.0",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  }
+}

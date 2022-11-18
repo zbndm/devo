@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "sourceMap": true,
+    "lib": ["dom", "es2015", "es2015.promise"],
+    "target": "es5"
+  }
+}
